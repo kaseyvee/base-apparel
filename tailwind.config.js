@@ -10,6 +10,7 @@ export default {
       'black': '#423A3A',
       'pink': '#EE8B8B',
       'mauve': '#CE9898',
+      'red': '#F96464'
     },
     fontSize: {
       sm: ['0.8125rem', '1.75rem'],
@@ -20,6 +21,11 @@ export default {
     },
     fontFamily: {
       'josefin': ['Josefin Sans', 'sans-serif'],
+    },
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('bg-pattern-desktop.svg')",
+      }
     }
   },
   plugins: [],

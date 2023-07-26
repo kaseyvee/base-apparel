@@ -1,6 +1,6 @@
 function HeroCard() {
   return (
-    <div className="flex flex-col gap-4 text-center px-8 py-12">
+    <div className="flex flex-col gap-4 text-center md:text-left md:max-w-lg">
       <h1 className="text-black font-bold text-xl md:text-2xl tracking-[10.83px] md:tracking-[17.32px]">
         <span className="text-mauve font-light">WE'RE</span> COMING SOON
       </h1>
