@@ -33,7 +33,7 @@ function App() {
           </header>
         )}
         {isMobile && <Image />}
-        <div className="flex flex-col gap-8 justify-center h-full md:max-w-lg px-8 py-12 md:px-16 relative">
+        <div className="flex flex-col gap-8 justify-center h-full md:max-w-xl px-8 py-12 md:px-16 relative">
           {!isMobile && (
             <header className="p-8 md:absolute top-[34px] left-[32px]">
               <Logo />
