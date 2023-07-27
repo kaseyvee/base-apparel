@@ -28,9 +28,9 @@ function App() {
 
   return (
     <main className="min-h-screen h-full font-josefin flex flex-col md:flex-row bg-gradient-to-br from-white to-pink/10">
-      {/* <div className="h-screen bg-white w-full absolute z-10 animate-fade-in flex justify-center items-center">
-        <IntroLogo />
-      </div> */}
+      <div className="h-screen bg-black w-full absolute z-10 animate-fade-in flex justify-center items-center">
+        {/* <IntroLogo /> */}
+      </div>
       <div className="w-full h-full flex flex-col justify-center md:items-center md:relative md:bg-hero-pattern">
         {isMobile && (
           <header className="p-8 md:absolute top-0 left-0">
