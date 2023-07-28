@@ -37,7 +37,7 @@ function EmailInput() {
       <AnimatePresence mode="wait">
         {emailAccepted ? (
           <motion.p
-            className="text-mauve text-base text-center md:text-left md:text-lg h-[48px]"
+            className="text-mauve text-base text-center md:text-left md:text-lg h-[48px] md:h-[56px]"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
           >
@@ -59,7 +59,7 @@ function EmailInput() {
                   invalidInput ? "border-2" : "border"
                 } ${
                   invalidInput ? "border-red" : "border-mauve/50"
-                } rounded-full text-base md:text-lg w-full h-12 px-6`}
+                } rounded-full text-base md:text-lg w-full h-12 md:h-14 px-6`}
                 type="email"
                 placeholder="Email Address"
                 value={email}
@@ -68,7 +68,7 @@ function EmailInput() {
               />
               <button
                 type="submit"
-                className="bg-gradient-to-br from-[#F8BFBF] to-pink shadow-xl shadow-mauve hover:brightness-125 focus:brightness-125 h-12 px-7 md:px-9 rounded-full absolute right-0 duration-200"
+                className="bg-gradient-to-br from-[#F8BFBF] to-pink shadow-xl shadow-mauve hover:brightness-125 focus:brightness-125 h-12 md:h-14 px-7 md:px-9 rounded-full absolute right-0 duration-200"
               >
                 <Arrow />
               </button>
