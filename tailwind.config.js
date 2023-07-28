@@ -24,7 +24,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('bg-pattern-desktop.svg')",
+        'hero-pattern': "url('/bg-pattern-desktop.svg')",
       },
       animation: {
         'fade-in': 'fade-in 1s ease-in-out forwards'
